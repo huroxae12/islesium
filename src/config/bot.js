@@ -68,9 +68,9 @@ export const botConfig = {
 
     // Embed colors by application status.
     statusColors: {
-      pending: "#FFA500",
-      approved: "#00FF00",
-      denied: "#FF0000",
+      pending: "#DEF2FF",
+      approved: "#BEE1F7",
+      denied: "#9CD3F7",
     },
 
     // How long users must wait before submitting another application (hours).
@@ -93,19 +93,19 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699",
-      secondary: "#2F3136",
+      primary: "#D9ECFF",
+      secondary: "#C6DFF7",
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#57F287",
-      error: "#ED4245",
-      warning: "#FEE75C",
-      info: "#3498DB",
+      success: "#9ECFFF",
+      error: "#C5E3FC",
+      warning: "#B3DCFF",
+      info: "#89C6FA",
 
       // Neutral utility colors.
-      light: "#FFFFFF",
-      dark: "#202225",
-      gray: "#99AAB5",
+      light: "#F0F9FF",
+      dark: "#A0C3DB",
+      gray: "#B4C8D6",
 
       // Discord-style palette shortcuts.
       blurple: "#5865F2",
@@ -117,31 +117,31 @@ export const botConfig = {
 
       // Feature-specific colors.
       giveaway: {
-        active: "#57F287",
-        ended: "#ED4245",
+        active: "#ADDDFF",
+        ended: "#78AFD6",
       },
       ticket: {
-        open: "#57F287",
-        claimed: "#FAA61A",
-        closed: "#ED4245",
-        pending: "#99AAB5",
+        open: "#8CCFFF",
+        claimed: "#BDE4FF",
+        closed: "#8CC5ED",
+        pending: "#D2EBFC",
       },
-      economy: "#F1C40F",
-      birthday: "#E91E63",
-      moderation: "#9B59B6",
+      economy: "#85CDFF",
+      birthday: "#C2DCFF",
+      moderation: "#96C3FF",
 
       // Ticket priority color mapping.
       priority: {
-        none: "#95A5A6",
-        low: "#3498db",
-        medium: "#2ecc71",
-        high: "#f1c40f",
-        urgent: "#e74c3c",
+        none: "#F5FAFF",
+        low: "#DEEEFF",
+        medium: "#A8D2FF",
+        high: "#87C0FF",
+        urgent: "#59A8FF",
       },
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "islesium",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -161,15 +161,15 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "diamonds",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "diamonds",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: "!",
     },
 
     // Starting balance for new users.
-    startingBalance: 0,
+    startingBalance: 10,
 
     // Maximum bank amount before upgrades (if upgrades are used).
     baseBankCapacity: 100000,
